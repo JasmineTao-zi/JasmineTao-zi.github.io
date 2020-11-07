@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>作业</title>
+    <link>https://JasmineTao-zi.github.io/</link>
+    <description>Recent content on 作业</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy; 2020 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 07 Nov 2020 13:34:38 +0800</lastBuildDate><atom:link href="https://JasmineTao-zi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A neural-network-based multi-function colour control method for four-colour light-emitting diodes - a solution for circadian effect</title>
+      <link>https://JasmineTao-zi.github.io/posts/second/</link>
+      <pubDate>Sat, 07 Nov 2020 13:34:38 +0800</pubDate>
+      
+      <guid>https://JasmineTao-zi.github.io/posts/second/</guid>
+      <description>Based on the two main models of the spectral sensitivity function for the circadian system (𝐶𝐿𝐴 model and EML model), a multi-function light-emitting diode (LED) colour control method based on backpropagation artificial neural network (BP ANN) is proposed. The method can achieve colour control with high colour rendering indexes, high spectral circadian efficacy and low spectral circadian efficacy. The mixed-light method based on the flux contribution ratio provides data points for three spectral design strategies. These data points calculated by the software will be updated and utilized for the training of neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Change of circadian effect with colour temperature and eye spectral transmittance at different ages</title>
+      <link>https://JasmineTao-zi.github.io/posts/first/</link>
+      <pubDate>Sat, 07 Nov 2020 12:39:02 +0800</pubDate>
+      
+      <guid>https://JasmineTao-zi.github.io/posts/first/</guid>
+      <description>摘要 With the recent advances in photobiology research and light-emitting diode technology, considering the circadian effects and the potential health benefits of lighting has attracted much attention. In this work, to achieve a white light-emitting LED cluster with beneficial and tunable circadian effects, a red-green-blue-warm white colour-mixing method based on pulse width modulation has been introduced and developed. Five optimal spectral power distributions were achieved with the correlated colour temperatures of 2700, 4000, 5000, 6500 and 8000K that provide maximum colour-rendering indices of 95.</description>
+    </item>
+    
+    <item>
+      <title>利用Hugo创建文档网站</title>
+      <link>https://JasmineTao-zi.github.io/about/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://JasmineTao-zi.github.io/about/</guid>
+      <description>关于 Hugo Hugo是一个基于Go 语言的框架，作为最流行的开源静态站点生成器之一。凭借其惊人的速度和灵活性，让网站建设再次变得有趣起来。Hugo 支持Markdown 语法，我们可以将自己的文章写成Markdown 的格式，放在我们用Hugo 创建的文档系统中，从而展示给他人。
+准备工作  首先要有一个github账号 下载Hugo：https://github.com/gohugoio/hugo/releases 下载Git： https://git-scm.com/download/win  1、Hugo安装 在Hugo下载地址中根据不同操作系统，选择对应的压缩包。此处以Windows系统为例，如图：
+安装适配
+下载后解压，然后将hugo.exe所在的完整路径添加到环境变量中。
+验证Hugo是否安装成功
+不管在哪种系统中安装Hugo，最后我们都可以在命令行窗口使用下面命令查看Hugo是否安装成功：
+hugo version  2、Git安装 进入git官网安装，选择Windows版本：
+Git是否安装成功
+具体方法 1、创建站点 Hugo和Git安装成功以后，在Git窗口输入命令创建站点：
+hugo new site homework  新的站点文件夹homework将自动生成到当前目录下： 执行完 hugo new site homework命令后会得到一个包含以下文件的目录。
+archetypes config.toml #配置文件； content #存储网站所有文档内容； data #数据； layouts #全局样式，优先级高于主题下的 layouts 文件夹； static #静态文件，优先级高于主题下的 static 文件夹； themes #主题目录;  2、下载主题 在Hugo主题列表中选择自己喜欢的主题进行下载，以Eureka为例：
+点击Homepage，进入主题详情页面，可根据入门说明快速搭建一个Eureka主题的Hugo网站；
+也可进入主题页面，点击Download，下载主题zip压缩包；
+将下载解压好的文件复制到themes文件夹下，注意：此处需将文件命名为主题名字。
+3、适配主题启动站点 根据Eureka主题说明，将主题文件夹中exampleSite中的config文件夹复制到项目根目录下，对config文件夹的内容进行配置。配置后删除原先的config.toml文件即可。
+完成以上步骤后使用在Git窗口使用 hugo server命令，并在浏览器中输入地址http://localhost:1313/ 即可在预览项目：
+hugo server  4、创建页面和文章 新建一个about页面: hugo new about.</description>
+    </item>
+    
+  </channel>
+</rss>
